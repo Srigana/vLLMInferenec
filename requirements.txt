@@ -1,0 +1,5 @@
+vllm>=0.14
+openai>=1.40
+datasets
+numpy
+pytest
