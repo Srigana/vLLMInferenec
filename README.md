@@ -123,16 +123,3 @@ tests/test_regression.py  regression tests
 summarize.py              results/*.json to markdown tables
 ```
 
-## Results
-
-Hardware:
-vLLM version:
-
-| Config | Concurrency | Output tok/s | TTFT p50 (ms) | TPOT p50 (ms) | E2E p99 (ms) | Exact match | GSM8K |
-|---|---|---|---|---|---|---|---|
-| baseline | 1 | | | | | | |
-| baseline | 32 | | | | | | |
-| prefix | 32 | | | | | | |
-| spec-ngram | 1 | | | | | | |
-| spec-draft | 1 | | | | | | |
-| spec-draft | 32 | | | | | | |
